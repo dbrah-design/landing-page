@@ -1,1 +1,3 @@
 # landing-page
+
+The current project I'm working on is a landing page website.I'm going to take a image of a design that has been provided to me and build it out. The colors and the fonts have been provided as well.  This project will help me practice the html and css I've learned so far. Html will be used to provide the structure of the page and I will have to use flexbox, the box model and other css properties to get the page styled like the design. 

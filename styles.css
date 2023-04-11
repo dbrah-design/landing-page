@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
 }
 
 a {
@@ -9,26 +10,17 @@ a {
   
   ul {
     list-style-type: none;
-    display: flex;
     margin: 0;
     padding: 0;
-    gap: 16px;
   }
 
-  .header {
-    display: flex;
-    justify-content: space-between;
-    padding: 8px;
-    background-color: #1f2937;
-  }
 
-  .left, .right {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-  }
+
+
 /* Got the font family set up to roboto which is a start. 
 Next I need to use the css settings from the flex header 2 code to make the nav like the one in the design /*
 
 /* Got the header kind of where I want it in terms of spacing. 
-But may need to adjust the background color to be in a container in the hero section so it can cover the background all over/*
+But may need to adjust the background color to be in a container in the hero section so it can cover the background all over. The spacing is ok
+I just think I need to adjust the margins to get them away from the edges. It looks like I need to do margin left right to get it away from the edges.  Also I don't think I need the left and right classes selected. 
+I checked and it's not doing anything/*

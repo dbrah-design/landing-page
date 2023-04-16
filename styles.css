@@ -17,17 +17,20 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 20px;
 }
 
-a {
+nav a {
    text-decoration: none;
    color: white;
   }
   
-  ul {
+  nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    gap: 22px;
   }
 
 
@@ -40,3 +43,10 @@ Next I need to use the css settings from the flex header 2 code to make the nav 
 But may need to adjust the background color to be in a container in the hero section so it can cover the background all over. The spacing is ok
 I just think I need to adjust the margins to get them away from the edges. It looks like I need to do margin left right to get it away from the edges.  Also I don't think I need the left and right classes selected. 
 I checked and it's not doing anything/*
+
+/* Note ,when I changed the a element to nav a it's only specifying the a elements in the navigation. So the logo will now show 
+up like a regular a element. Once I bring in the logo from figma into there it should fix that  /*
+
+/* Align items in the header isn't working and pushing the items off the edge of the screen. I tried margin and that didn't seem to work either.
+Let me try padding. That seemed to work but the align items center is not working for some reason though. Maybe it will fix 
+itself once I fix up all the other elements in the hero section  /*

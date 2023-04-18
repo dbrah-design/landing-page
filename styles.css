@@ -33,6 +33,10 @@ nav a {
     gap: 22px;
   }
 
+.hero-image {
+  width: 522px;
+  height: 234px;
+}
 
 
 
@@ -49,4 +53,5 @@ up like a regular a element. Once I bring in the logo from figma into there it s
 
 /* Align items in the header isn't working and pushing the items off the edge of the screen. I tried margin and that didn't seem to work either.
 Let me try padding. That seemed to work but the align items center is not working for some reason though. Maybe it will fix 
-itself once I fix up all the other elements in the hero section  /*
+itself once I fix up all the other elements in the hero section. New note, once I added a height to the header section that seemed to 
+fix the issue. For now going to stick to the padding top setting and once I finish up the rest of the hero section go back to it.   /*

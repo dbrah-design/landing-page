@@ -32,6 +32,12 @@ nav a {
     display: flex;
     gap: 22px;
   }
+/* Navbar */
+
+.hero-col-wrapper {
+  display: flex;
+  margin-top: 73px;
+}
 
 .hero-image {
   width: 522px;

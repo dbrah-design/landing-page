@@ -64,21 +64,20 @@ margin-bottom: 13px;
 .cta-btn {
   background: #3882F6;
   border-radius: 10px;
-  width: 130px;
-  height: 35px;
   padding: 7px 35px;
   color: #E5E7EB;
   font-size: 18px;
+  border: 0 none;
 }
 
 
 /* Got the font family set up to roboto which is a start. 
-Next I need to use the css settings from the flex header 2 code to make the nav like the one in the design /*
+Next I need to use the css settings from the flex header 2 code to make the nav like the one in the design */
 
 /* Got the header kind of where I want it in terms of spacing. 
 But may need to adjust the background color to be in a container in the hero section so it can cover the background all over. The spacing is ok
 I just think I need to adjust the margins to get them away from the edges. It looks like I need to do margin left right to get it away from the edges.  Also I don't think I need the left and right classes selected. 
-I checked and it's not doing anything/*
+I checked and it's not doing anything. /*
 
 /* Note ,when I changed the a element to nav a it's only specifying the a elements in the navigation. So the logo will now show 
 up like a regular a element. Once I bring in the logo from figma into there it should fix that  /*
@@ -87,3 +86,7 @@ up like a regular a element. Once I bring in the logo from figma into there it s
 Let me try padding. That seemed to work but the align items center is not working for some reason though. Maybe it will fix 
 itself once I fix up all the other elements in the hero section. New note, once I added a height to the header section that seemed to 
 fix the issue. For now going to stick to the padding top setting and once I finish up the rest of the hero section go back to it.   /*
+
+
+/* It seems when I set the font size to 18px on cta btn class, the text split into two lines. Need to figure out why
+Update- Turns out I just needed to take out the width and the height and add border 0 none. That fixed the problem. */

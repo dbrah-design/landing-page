@@ -83,10 +83,10 @@ margin-bottom: 13px;
   font-size: 36px;
 }
 
-.info-image-wrapper {
+/*.info-image-wrapper {
   display: flex;
   justify-content: center;
-}
+} */
 
 .info-image {
   width: 164px;

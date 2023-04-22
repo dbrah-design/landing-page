@@ -78,15 +78,14 @@ margin-bottom: 13px;
 
 .info-header {
   text-align: center;
-  margin: 50px 0 0 0;
+  margin: 50px 0 50px 0;
   font-weight: 800;
   font-size: 36px;
 }
 
-/*.info-image-wrapper {
+.info-content-wrapper {
   display: flex;
-  justify-content: center;
-} */
+} 
 
 .info-image {
   width: 164px;

@@ -76,6 +76,13 @@ margin-bottom: 13px;
   background-color: white;
 }
 
+.info-header {
+  text-align: center;
+  margin: 50px 0 0 0;
+  font-weight: 800;
+  font-size: 36px;
+}
+
 /* Got the font family set up to roboto which is a start. 
 Next I need to use the css settings from the flex header 2 code to make the nav like the one in the design */
 

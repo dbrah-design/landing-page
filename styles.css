@@ -12,7 +12,7 @@ body {
   max-width: 1100px;
   margin: 0 auto;
 }
-
+/* Navbar */
 header {
   display: flex;
   justify-content: space-between;
@@ -32,7 +32,7 @@ nav a {
     display: flex;
     gap: 22px;
   }
-/* Navbar */
+/* Hero Section */
 
 .hero-col-wrapper {
   display: flex;
@@ -69,7 +69,12 @@ margin-bottom: 13px;
   font-size: 18px;
   border: 0 none;
 }
+/* Info Section */
 
+.info-section {
+  height: 503px;
+  background-color: white;
+}
 
 /* Got the font family set up to roboto which is a start. 
 Next I need to use the css settings from the flex header 2 code to make the nav like the one in the design */

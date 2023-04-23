@@ -85,7 +85,14 @@ margin-bottom: 13px;
 
 .info-content-wrapper {
   display: flex;
-} 
+  justify-content: center;
+  gap: 50px;
+}
+
+.info-image-wrapper {
+  width: 158px;
+  text-align: center;
+}
 
 .info-image {
   width: 164px;
@@ -111,3 +118,5 @@ fix the issue. For now going to stick to the padding top setting and once I fini
 
 /* It seems when I set the font size to 18px on cta btn class, the text split into two lines. Need to figure out why
 Update- Turns out I just needed to take out the width and the height and add border 0 none. That fixed the problem. */
+
+/* Need to figure out why the paragraph is taking up a whole line right under the info image. */

@@ -99,6 +99,13 @@ margin-bottom: 13px;
   height: 163px;
 }
 
+.info-subtext {
+font-weight: 400;
+font-size: 18px;
+color: #565F6D;
+margin: 10px 0;
+}
+
 /* Got the font family set up to roboto which is a start. 
 Next I need to use the css settings from the flex header 2 code to make the nav like the one in the design */
 
@@ -119,4 +126,7 @@ fix the issue. For now going to stick to the padding top setting and once I fini
 /* It seems when I set the font size to 18px on cta btn class, the text split into two lines. Need to figure out why
 Update- Turns out I just needed to take out the width and the height and add border 0 none. That fixed the problem. */
 
-/* Need to figure out why the paragraph is taking up a whole line right under the info image. */
+/* Need to figure out why the paragraph is taking up a whole line right under the info image. I got it. Was supposed to have a width 
+to the info image wrapper and then add text align center to it.  */
+
+/* Remember to style info subtext class */

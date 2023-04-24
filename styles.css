@@ -106,6 +106,15 @@ color: #565F6D;
 margin: 10px 0;
 }
 
+/* Quote Section */
+
+.quote-section {
+  height: 425px;
+  background-color: #E5E7EB;
+}
+
+
+
 /* Got the font family set up to roboto which is a start. 
 Next I need to use the css settings from the flex header 2 code to make the nav like the one in the design */
 

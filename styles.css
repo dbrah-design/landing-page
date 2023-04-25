@@ -118,7 +118,7 @@ margin: 10px 0;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 130px 340px;
+  padding: 130px 310px;
 }
 
 .quote-text {
@@ -133,7 +133,13 @@ font-weight: lighter;
   font-weight: bold;
   color: #1F2937;
   align-self: flex-end;
+  font-size: 24px;
+  margin: 10px 0;
 }
+
+/* CTA Section */
+
+
 
 /* Got the font family set up to roboto which is a start. 
 Next I need to use the css settings from the flex header 2 code to make the nav like the one in the design */

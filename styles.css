@@ -121,6 +121,14 @@ margin: 10px 0;
   padding: 130px 340px;
 }
 
+.quote-text {
+font-style: italic;
+font-size: 36px;
+margin: 0;
+color: #1F2937;
+font-weight: 300;
+}
+
 /* Got the font family set up to roboto which is a start. 
 Next I need to use the css settings from the flex header 2 code to make the nav like the one in the design */
 

@@ -113,7 +113,13 @@ margin: 10px 0;
   background-color: #E5E7EB;
 }
 
-
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 130px 340px;
+}
 
 /* Got the font family set up to roboto which is a start. 
 Next I need to use the css settings from the flex header 2 code to make the nav like the one in the design */

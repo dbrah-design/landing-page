@@ -126,7 +126,13 @@ font-style: italic;
 font-size: 36px;
 margin: 0;
 color: #1F2937;
-font-weight: 300;
+font-weight: lighter;
+}
+
+.quote-author {
+  font-weight: bold;
+  color: #1F2937;
+  align-self: flex-end;
 }
 
 /* Got the font family set up to roboto which is a start. 

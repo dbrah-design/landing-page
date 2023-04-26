@@ -143,6 +143,13 @@ font-weight: lighter;
   height: 350px;
 }
 
+.cta-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 .cta-banner {
   width: 1025px;
   height: 148px;
@@ -173,3 +180,5 @@ Update- Turns out I just needed to take out the width and the height and add bor
 to the info image wrapper and then add text align center to it.  */
 
 /* Remember to style info subtext class */
+
+/* Needed to specify a height in order for align items to work in the cta wrapper. Once I put it to 100% it centered in the middle of the section  */

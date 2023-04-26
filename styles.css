@@ -153,8 +153,28 @@ font-weight: lighter;
 .cta-banner {
   width: 1025px;
   height: 148px;
-  background-color: #3B82F6;;
+  background-color: #3B82F6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
 }
+
+.cta-header {
+  font-size: 24px;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin: 0 0 5px;
+}
+
+.cta-subtext {
+  font-size: 20px;
+  color: #FFFFFF;
+  margin: 0;
+  font-weight: lighter;
+}
+
+.ghost-btn
 
 /* Got the font family set up to roboto which is a start. 
 Next I need to use the css settings from the flex header 2 code to make the nav like the one in the design */
@@ -182,3 +202,6 @@ to the info image wrapper and then add text align center to it.  */
 /* Remember to style info subtext class */
 
 /* Needed to specify a height in order for align items to work in the cta wrapper. Once I put it to 100% it centered in the middle of the section  */
+
+/* The cta ghost button stretched when I applied a flexbox to the cta baner. Had to add a cta btn wrapper around it to fix it. I think I could have messed around with
+the flex item itself to make sure it didn't stretch.

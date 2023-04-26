@@ -174,7 +174,14 @@ font-weight: lighter;
   font-weight: lighter;
 }
 
-.ghost-btn
+.ghost-btn {
+  padding: 8px 36px;
+  border: 3px solid #FFFFFF;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #FFFFFF;
+  font-size: 18px;
+}
 
 /* Got the font family set up to roboto which is a start. 
 Next I need to use the css settings from the flex header 2 code to make the nav like the one in the design */
